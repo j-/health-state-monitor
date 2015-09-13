@@ -37,8 +37,18 @@ $ npm install esdoc --global
 $ esdoc -c esdoc.json
 ```
 
+## Tests
+
+Tests are run with [Mocha][mocha] and [Babel][babel]:
+
+```sh
+$ npm install && npm run test
+```
+
 ## License
 
 [MIT license](LICENSE).
 
 [esdoc]: https://esdoc.org/
+[mocha]: https://mochajs.org/
+[babel]: https://babeljs.io/

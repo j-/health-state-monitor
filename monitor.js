@@ -1,4 +1,4 @@
-import STATES from 'states';
+import STATES from './states';
 
 /**
  * Main health state monitor class.

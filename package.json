@@ -1,0 +1,34 @@
+{
+  "name": "health-state-monitor",
+  "version": "0.1.0",
+  "description": "Monitor the health of a system, job, server, routine, connection, user or anything else.",
+  "main": "monitor.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --require babel/register tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-/health-state-monitor.git"
+  },
+  "keywords": [
+    "health",
+    "system",
+    "state",
+    "machine",
+    "monitor"
+  ],
+  "author": "Jamie Hoeks <j@skeoh.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/j-/health-state-monitor/issues"
+  },
+  "homepage": "https://github.com/j-/health-state-monitor#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "mocha": "^2.3.2"
+  }
+}
