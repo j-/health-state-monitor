@@ -47,4 +47,11 @@ describe('Monitor', () => {
 			assert.equal(result.valueOf(), lastPing.valueOf());
 		});
 	});
+	describe('#getStateAtTime()', () => {
+		it('should be in an unknown state by default', () => {
+			const mon = new Monitor();
+			const state = mon.getStateAtTime(new Date());
+			assert.equal(state, Monitor.STATES.UNKNOWN);
+		});
+	});
 });
