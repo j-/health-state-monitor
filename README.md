@@ -37,4 +37,8 @@ $ npm install esdoc --global
 $ esdoc -c esdoc.json
 ```
 
+## License
+
+[MIT license](LICENSE).
+
 [esdoc]: https://esdoc.org/
