@@ -1,0 +1,17 @@
+{
+  "coverage": "100%",
+  "expectCount": 17,
+  "actualCount": 17,
+  "files": {
+    "health-state-monitor/monitor.js": {
+      "expectCount": 10,
+      "actualCount": 10,
+      "undocumentLines": []
+    },
+    "health-state-monitor/states.js": {
+      "expectCount": 7,
+      "actualCount": 7,
+      "undocumentLines": []
+    }
+  }
+}
