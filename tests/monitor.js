@@ -53,5 +53,24 @@ describe('Monitor', () => {
 			const state = mon.getStateAtTime(new Date());
 			assert.equal(state, Monitor.STATES.UNKNOWN);
 		});
+		it('should return the appropriate state as time passes', () => {
+			const now = new Date();
+			const inTenSeconds    = new Date(now.getTime() + 1000 * 10);
+			const inTwentySeconds = new Date(now.getTime() + 1000 * 20);
+			const inThirtySeconds = new Date(now.getTime() + 1000 * 30);
+			const inFortySeconds  = new Date(now.getTime() + 1000 * 40);
+			const inFiftySeconds  = new Date(now.getTime() + 1000 * 50);
+			const mon = new Monitor({
+				lastPing: now,
+				warningThreshold: 1000 * 20,
+				dangerThreshold: 1000 * 40,
+			});
+			assert.equal(mon.getStateAtTime(now),             Monitor.STATES.HEALTHY, 'System is healthy at last ping time');
+			assert.equal(mon.getStateAtTime(inTenSeconds),    Monitor.STATES.HEALTHY, 'System is healthy before the warning threshold');
+			assert.equal(mon.getStateAtTime(inTwentySeconds), Monitor.STATES.WARNING, 'System is in warning state at the warning threshold');
+			assert.equal(mon.getStateAtTime(inThirtySeconds), Monitor.STATES.WARNING, 'System is in warning state after the warning threshold but before the danger threshold');
+			assert.equal(mon.getStateAtTime(inFortySeconds),  Monitor.STATES.DANGER,  'System is in danger state at the danger threshold');
+			assert.equal(mon.getStateAtTime(inFiftySeconds),  Monitor.STATES.DANGER,  'System is in danger state after the danger threshold');
+		});
 	});
 });
