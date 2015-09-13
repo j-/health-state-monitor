@@ -1,6 +1,8 @@
 [Health state monitor][repo]
 ============================
 
+[![master branch build status][build-icon]][build-link]
+
 Simple state machine which can be used to monitor the health of a system, job,
 server, routine, connection, user or anything else.
 
@@ -50,6 +52,8 @@ $ npm install && npm run test
 [MIT license](LICENSE).
 
 [repo]: https://github.com/j-/health-state-monitor
+[build-icon]: https://travis-ci.org/j-/health-state-monitor.svg?branch=master
+[build-link]: https://travis-ci.org/j-/health-state-monitor
 [esdoc]: https://esdoc.org/
 [mocha]: https://mochajs.org/
 [babel]: https://babeljs.io/
