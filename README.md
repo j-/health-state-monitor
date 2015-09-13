@@ -1,5 +1,5 @@
-Health state monitor
-====================
+[Health state monitor][repo]
+============================
 
 Simple state machine which can be used to monitor the health of a system, job,
 server, routine, connection, user or anything else.
@@ -49,6 +49,7 @@ $ npm install && npm run test
 
 [MIT license](LICENSE).
 
+[repo]: https://github.com/j-/health-state-monitor
 [esdoc]: https://esdoc.org/
 [mocha]: https://mochajs.org/
 [babel]: https://babeljs.io/
