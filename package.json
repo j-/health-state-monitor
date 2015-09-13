@@ -1,6 +1,6 @@
 {
   "name": "health-state-monitor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Monitor the health of a system, job, server, routine, connection, user or anything else.",
   "main": "src/monitor.js",
   "directories": {
