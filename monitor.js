@@ -75,6 +75,9 @@ export default class Monitor {
 	get warningTime () {
 		const lastPing = Number(this.lastPing);
 		const threshold = this.warningThreshold;
+		if (isNaN(lastPing) || threshold === null || isNaN(threshold)) {
+			return new Date(NaN);
+		}
 		return new Date(lastPing + threshold);
 	}
 
@@ -85,6 +88,9 @@ export default class Monitor {
 	get dangerTime () {
 		const lastPing = Number(this.lastPing);
 		const threshold = this.dangerThreshold;
+		if (isNaN(lastPing) || threshold === null || isNaN(threshold)) {
+			return new Date(NaN);
+		}
 		return new Date(lastPing + threshold);
 	}
 }
