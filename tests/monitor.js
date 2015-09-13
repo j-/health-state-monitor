@@ -27,4 +27,24 @@ describe('Monitor', () => {
 			assert.equal(mon.dangerThreshold, dangerThreshold);
 		});
 	});
+	describe('#ping()', () => {
+		it('should update the last ping time', () => {
+			const lastPing = new Date(Date.now() - 1000); // 1 second ago
+			const mon = new Monitor({ lastPing });
+			mon.ping();
+			assert.notEqual(mon.lastPing.valueOf(), lastPing.valueOf());
+		});
+		it('should accept a ping date', () => {
+			const lastPing = new Date(Date.now() - 1000); // 1 second ago
+			const mon = new Monitor();
+			mon.ping(lastPing);
+			assert.equal(mon.lastPing.valueOf(), lastPing.valueOf());
+		});
+		it('should return the new last ping time', () => {
+			const lastPing = new Date();
+			const mon = new Monitor();
+			const result = mon.ping(lastPing);
+			assert.equal(result.valueOf(), lastPing.valueOf());
+		});
+	});
 });
