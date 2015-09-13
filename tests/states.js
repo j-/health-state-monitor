@@ -1,4 +1,4 @@
-import STATES from '../states';
+import STATES from '../src/states';
 import assert from 'assert';
 
 describe('Monitor.STATES', () => {
