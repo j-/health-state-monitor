@@ -44,16 +44,19 @@ export default class Monitor {
 	 */
 	getStateAtTime (time) {
 		const { dangerTime, warningTime } = this;
+		const invalidTime = !time || isNaN(time);
+		const invalidDangerTime = !dangerTime || isNaN(dangerTime);
+		const invalidWarningTime = !warningTime || isNaN(warningTime);
 		// The time or either threshold is invalid
-		if (isNaN(time) || isNaN(dangerTime) || isNaN(warningTime)) {
+		if (invalidTime || invalidWarningTime || invalidDangerTime) {
 			return STATES.UNKNOWN;
 		}
 		// The current time has passed the danger time
-		else if (time > dangerTime) {
+		else if (time >= dangerTime) {
 			return STATES.DANGER;
 		}
 		// The current time has passed the warning time
-		else if (time > warningTime) {
+		else if (time >= warningTime) {
 			return STATES.WARNING;
 		}
 		// Everything is OK
