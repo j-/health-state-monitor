@@ -1,3 +1,12 @@
+/**
+ * System state enum. State is one of:
+ *   - UNKNOWN
+ *   - HEALTHY
+ *   - WARNING
+ *   - DANGER
+ * @typedef {Symbol} State
+ */
+
 const STATES = {
 	UNKNOWN: Symbol('unknown'),
 	HEALTHY: Symbol('healthy'),
