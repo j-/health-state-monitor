@@ -3,12 +3,12 @@
   "expectCount": 17,
   "actualCount": 17,
   "files": {
-    "health-state-monitor/monitor.js": {
+    "src/monitor.js": {
       "expectCount": 10,
       "actualCount": 10,
       "undocumentLines": []
     },
-    "health-state-monitor/states.js": {
+    "src/states.js": {
       "expectCount": 7,
       "actualCount": 7,
       "undocumentLines": []

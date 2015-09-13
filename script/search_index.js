@@ -1,20 +1,20 @@
 window.esdocSearchIndex = [
   [
-    "health-state-monitor/health-state-monitor/monitor.js~monitor",
-    "class/health-state-monitor/monitor.js~Monitor.html",
-    "<span>Monitor</span> <span class=\"search-result-import-path\">health-state-monitor/health-state-monitor/monitor.js</span>",
+    "health-state-monitor~monitor",
+    "class/src/monitor.js~Monitor.html",
+    "<span>Monitor</span> <span class=\"search-result-import-path\">health-state-monitor</span>",
     "class"
   ],
   [
-    "health-state-monitor/health-state-monitor/states.js~states",
+    "health-state-monitor/src/states.js~states",
     "variable/index.html#static-variable-STATES",
-    "<span>STATES</span> <span class=\"search-result-import-path\">health-state-monitor/health-state-monitor/states.js</span>",
+    "<span>STATES</span> <span class=\"search-result-import-path\">health-state-monitor/src/states.js</span>",
     "variable"
   ],
   [
-    "health-state-monitor/health-state-monitor/states.js~state",
-    "class/health-state-monitor/states.js~State.html",
-    "<span>State</span> <span class=\"search-result-import-path\">health-state-monitor/health-state-monitor/states.js</span>",
+    "health-state-monitor/src/states.js~state",
+    "class/src/states.js~State.html",
+    "<span>State</span> <span class=\"search-result-import-path\">health-state-monitor/src/states.js</span>",
     "class"
   ],
   [
@@ -342,111 +342,99 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
-    "health-state-monitor/monitor.js",
-    "file/health-state-monitor/monitor.js.html",
-    "health-state-monitor/monitor.js",
+    "src/monitor.js",
+    "file/src/monitor.js.html",
+    "src/monitor.js",
     "file"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#constructor",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-constructor-constructor",
-    "health-state-monitor/monitor.js~Monitor#constructor",
+    "src/monitor.js~monitor#constructor",
+    "class/src/monitor.js~Monitor.html#instance-constructor-constructor",
+    "src/monitor.js~Monitor#constructor",
     "method"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#dangerthreshold",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-member-dangerThreshold",
-    "health-state-monitor/monitor.js~Monitor#dangerThreshold",
+    "src/monitor.js~monitor#dangerthreshold",
+    "class/src/monitor.js~Monitor.html#instance-member-dangerThreshold",
+    "src/monitor.js~Monitor#dangerThreshold",
     "member"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#dangertime",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-get-dangerTime",
-    "health-state-monitor/monitor.js~Monitor#dangerTime",
+    "src/monitor.js~monitor#dangertime",
+    "class/src/monitor.js~Monitor.html#instance-get-dangerTime",
+    "src/monitor.js~Monitor#dangerTime",
     "member"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#getstateattime",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-method-getStateAtTime",
-    "health-state-monitor/monitor.js~Monitor#getStateAtTime",
+    "src/monitor.js~monitor#getstateattime",
+    "class/src/monitor.js~Monitor.html#instance-method-getStateAtTime",
+    "src/monitor.js~Monitor#getStateAtTime",
     "method"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#lastping",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-member-lastPing",
-    "health-state-monitor/monitor.js~Monitor#lastPing",
+    "src/monitor.js~monitor#lastping",
+    "class/src/monitor.js~Monitor.html#instance-member-lastPing",
+    "src/monitor.js~Monitor#lastPing",
     "member"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#ping",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-method-ping",
-    "health-state-monitor/monitor.js~Monitor#ping",
+    "src/monitor.js~monitor#ping",
+    "class/src/monitor.js~Monitor.html#instance-method-ping",
+    "src/monitor.js~Monitor#ping",
     "method"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#state",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-get-state",
-    "health-state-monitor/monitor.js~Monitor#state",
+    "src/monitor.js~monitor#state",
+    "class/src/monitor.js~Monitor.html#instance-get-state",
+    "src/monitor.js~Monitor#state",
     "member"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#warningthreshold",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-member-warningThreshold",
-    "health-state-monitor/monitor.js~Monitor#warningThreshold",
+    "src/monitor.js~monitor#warningthreshold",
+    "class/src/monitor.js~Monitor.html#instance-member-warningThreshold",
+    "src/monitor.js~Monitor#warningThreshold",
     "member"
   ],
   [
-    "health-state-monitor/monitor.js~monitor#warningtime",
-    "class/health-state-monitor/monitor.js~Monitor.html#instance-get-warningTime",
-    "health-state-monitor/monitor.js~Monitor#warningTime",
+    "src/monitor.js~monitor#warningtime",
+    "class/src/monitor.js~Monitor.html#instance-get-warningTime",
+    "src/monitor.js~Monitor#warningTime",
     "member"
   ],
   [
-    "health-state-monitor/states.js",
-    "file/health-state-monitor/states.js.html",
-    "health-state-monitor/states.js",
+    "src/states.js",
+    "file/src/states.js.html",
+    "src/states.js",
     "file"
   ],
   [
-    "health-state-monitor/states.js~state#constructor",
-    "class/health-state-monitor/states.js~State.html#instance-constructor-constructor",
-    "health-state-monitor/states.js~State#constructor",
+    "src/states.js~state#constructor",
+    "class/src/states.js~State.html#instance-constructor-constructor",
+    "src/states.js~State#constructor",
     "method"
   ],
   [
-    "health-state-monitor/states.js~state#name",
-    "class/health-state-monitor/states.js~State.html#instance-member-name",
-    "health-state-monitor/states.js~State#name",
+    "src/states.js~state#name",
+    "class/src/states.js~State.html#instance-member-name",
+    "src/states.js~State#name",
     "member"
   ],
   [
-    "health-state-monitor/states.js~state#tostring",
-    "class/health-state-monitor/states.js~State.html#instance-method-toString",
-    "health-state-monitor/states.js~State#toString",
+    "src/states.js~state#tostring",
+    "class/src/states.js~State.html#instance-method-toString",
+    "src/states.js~State#toString",
     "method"
   ],
   [
-    "health-state-monitor/states.js~state#value",
-    "class/health-state-monitor/states.js~State.html#instance-member-value",
-    "health-state-monitor/states.js~State#value",
+    "src/states.js~state#value",
+    "class/src/states.js~State.html#instance-member-value",
+    "src/states.js~State#value",
     "member"
   ],
   [
-    "health-state-monitor/states.js~state#valueof",
-    "class/health-state-monitor/states.js~State.html#instance-method-valueOf",
-    "health-state-monitor/states.js~State#valueOf",
+    "src/states.js~state#valueof",
+    "class/src/states.js~State.html#instance-method-valueOf",
+    "src/states.js~State#valueOf",
     "method"
-  ],
-  [
-    "health-state-monitor/tests/monitor.js",
-    "file/health-state-monitor/tests/monitor.js.html",
-    "health-state-monitor/tests/monitor.js",
-    "file"
-  ],
-  [
-    "health-state-monitor/tests/states.js",
-    "file/health-state-monitor/tests/states.js.html",
-    "health-state-monitor/tests/states.js",
-    "file"
   ]
 ]
