@@ -8,7 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha --require babel/register tests/"
+    "test": "mocha --require babel/register tests/",
+    "docs": "esdoc -c esdoc.json"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/j-/health-state-monitor#readme",
   "devDependencies": {
     "babel": "^5.8.23",
+    "esdoc": "^0.2.6",
     "mocha": "^2.3.2"
   }
 }

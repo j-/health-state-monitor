@@ -35,8 +35,7 @@ setInterval(function () {
 Documentation is generated with [esdoc][esdoc]:
 
 ```sh
-$ npm install esdoc --global
-$ esdoc -c esdoc.json
+$ npm install && npm run docs
 ```
 
 ## Tests
