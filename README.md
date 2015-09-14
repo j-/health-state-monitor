@@ -1,4 +1,4 @@
-[Health state monitor][repo]
+[Health state monitor][site]
 ============================
 
 [![master branch build status][build-icon]][build-link]
@@ -50,7 +50,7 @@ $ npm install && npm run test
 
 [MIT license](LICENSE).
 
-[repo]: https://github.com/j-/health-state-monitor
+[site]: http://j-.github.io/health-state-monitor/
 [build-icon]: https://travis-ci.org/j-/health-state-monitor.svg?branch=master
 [build-link]: https://travis-ci.org/j-/health-state-monitor
 [esdoc]: https://esdoc.org/
